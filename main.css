@@ -2,10 +2,10 @@ body{
 	font-family: "Comic Sans MS";
 }
 
-ul#navbar{
-	list-style: none;
+#navbar ul{
+	list-style-type: none;
 }
 
-li#navbar{
-	list-style: none;
+#navbar li{
+	list-style-type: none;
 }
