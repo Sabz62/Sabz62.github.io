@@ -2,10 +2,57 @@ body{
 	font-family: "Comic Sans MS";
 }
 
+h1{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: black;
+	text-align: center;
+}
+
+IMG.displayed{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #navbar ul{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
 }
 
 #navbar li{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	text-align:center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: grey;
+}
+.yoda{
+	width: 300px;
+	height: 400px;
+	display: inline;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.luke{
+	width: 300px;
+	height: 400px;
+	display: inline;
+	margin-right: 150px;
 }
